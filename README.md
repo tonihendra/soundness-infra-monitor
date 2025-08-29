@@ -1,4 +1,9 @@
-# 🔎 Soundness Infra Monitor
+# 🔎 Soundness Infra Monitor  
+
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)](https://nodejs.org/)  
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)  
+[![Docker](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)](https://www.docker.com/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 
 A skeleton repository for **PoC vApp Infrastructure category**.  
 This project provides a **backend (Node.js/Express)** and **frontend (React + Vite)** running together with **Docker Compose**.
@@ -81,5 +86,3 @@ Made with ❤️ by **Soundness Team**
 
 ---
 
-Mau saya tambahkan juga **badge keren** (Node.js, React, Docker, License) biar README kamu terlihat seperti proyek open-source profesional di GitHub? 🚀
-```
