@@ -1,8 +1,3 @@
-Got it 👍 Here’s the **README.md** rewritten fully in English with a clean, professional style:
-
----
-
-```markdown
 # 🔎 Soundness Infra Monitor
 
 A skeleton repository for **PoC vApp Infrastructure category**.  
@@ -86,5 +81,5 @@ Made with ❤️ by **Soundness Team**
 
 ---
 
-Do you want me to also add **badges** (Node.js, React, Docker, GitHub Actions) at the top so the README looks more like a polished open-source project? 🚀
+Mau saya tambahkan juga **badge keren** (Node.js, React, Docker, License) biar README kamu terlihat seperti proyek open-source profesional di GitHub? 🚀
 ```
