@@ -48,47 +48,59 @@ This PoC is:
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Getting Started  
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (>= 18.x)
-- npm (comes with Node.js)
-- (Optional) Docker
+### Prerequisites  
+- [Node.js](https://nodejs.org/) (>= 18.x)  
+- npm (comes with Node.js)  
+- (Optional) Docker  
 
-### 1. Clone the repository
+---
+
+### Run Locally  
+
+#### 1. Clone the repository  
 ```bash
 git clone https://github.com/tonihendra/soundness-infra-monitor
 cd soundness-infra-monitor
-2. Install dependencies
+```
+
+#### 2. Install dependencies  
 ```bash
 npm install
+```
 
-3. Start development server
+#### 3. Start development server  
 ```bash
 npm run dev
+```
 
+#### 4. Open your browser  
+👉 [http://localhost:3000](http://localhost:3000)  
 
-Open your browser at:
-👉 http://localhost:3000
+---
 
-🐳 Run with Docker (Optional)
+### 🐳 Run with Docker (Optional)  
 
-If you prefer Docker, you can run the app in a container:
-
+#### 1. Build the Docker image  
+```bash
 docker build -t soundness-monitor .
+```
+
+#### 2. Run the container  
+```bash
 docker run -p 3000:3000 soundness-monitor
+```
 
+#### 3. Access the dashboard  
+👉 [http://localhost:3000](http://localhost:3000)  
 
-Access the dashboard at:
-👉 http://localhost:3000
+---
 
-✅ PoC Notes
-
-This PoC demonstrates a lightweight dashboard concept.
-
-Designed to integrate with Soundness Layer validator endpoints for real monitoring.
-
-Simple enough to be reproduced by any developer following these instructions.
+## ✅ PoC Notes  
+- This PoC demonstrates a lightweight dashboard concept.  
+- Designed to integrate with **Soundness Layer validator endpoints** for real monitoring.  
+- Simple enough to be reproduced by any developer following these instructions.
 
 ---
 
