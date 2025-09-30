@@ -36,46 +36,57 @@ soundness-infra-monitor/
 
 ---
 
-## ⚡ Getting Started
+# Soundness Infra Monitor (PoC)
 
-### 1. Run with Docker Compose
-Make sure you have **Docker** & **Docker Compose** installed.
+## 📌 Description
+A Proof of Concept monitoring dashboard for **Soundness Layer infrastructure**, providing visibility into node health, system metrics, and infra performance.
 
+This PoC is:
+- **Self-contained** → can run locally or in Docker.
+- **Reproducible** → simple steps to set up and verify.
+- **Extendable** → can be expanded to support more detailed Soundness Layer metrics.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (>= 18.x)
+- npm (comes with Node.js)
+- (Optional) Docker
+
+### 1. Clone the repository
 ```bash
-docker-compose up --build
-````
+git clone https://github.com/tonihendra/soundness-infra-monitor
+cd soundness-infra-monitor
+2. Install dependencies
+npm install
 
-Then open in browser:
+3. Start development server
+npm run dev
 
-* Backend → [http://localhost:3001/status](http://localhost:3001/status)
-* Frontend → [http://localhost:5173](http://localhost:5173)
 
----
+Open your browser at:
+👉 http://localhost:3000
 
-### 2. Run with Script
+🐳 Run with Docker (Optional)
 
-Alternatively, use the included shell script:
+If you prefer Docker, you can run the app in a container:
 
-```bash
-chmod +x run.sh
-./run.sh
-```
+docker build -t soundness-monitor .
+docker run -p 3000:3000 soundness-monitor
 
----
 
-## 🛠 Development
+Access the dashboard at:
+👉 http://localhost:3000
 
-* **Backend** → [`backend/`](./backend)
-  Tech stack: Node.js + Express
-* **Frontend** → [`frontend/`](./frontend)
-  Tech stack: React + Vite
+✅ PoC Notes
 
----
+This PoC demonstrates a lightweight dashboard concept.
 
-## 📌 Notes
+Designed to integrate with Soundness Layer validator endpoints for real monitoring.
 
-* This project is still a **skeleton/PoC**.
-* Feel free to extend it (e.g., infrastructure monitoring, database integration, metrics, etc.).
+Simple enough to be reproduced by any developer following these instructions.
 
 ---
 
