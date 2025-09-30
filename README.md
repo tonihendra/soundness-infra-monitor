@@ -59,10 +59,12 @@ This PoC is:
 ```bash
 git clone https://github.com/tonihendra/soundness-infra-monitor
 cd soundness-infra-monitor
-2. Install dependencies
+### 2. Install dependencies
+```bash
 npm install
 
-3. Start development server
+### 3. Start development server
+```bash
 npm run dev
 
 
