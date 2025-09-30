@@ -9,7 +9,8 @@ A skeleton repository for **PoC vApp Infrastructure category**.
 This project provides a **backend (Node.js/Express)** and **frontend (React + Vite)** running together with **Docker Compose**.
 
 ---
-
+Description :
+A Proof of Concept monitoring tool for Soundness Layer infra, enabling visibility of validator nodes and system health via lightweight dashboard
 ## 📂 Project Structure
 ```
 
